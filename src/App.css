@@ -1,0 +1,35 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', Helvetica, sans-serif;
+}
+
+.header {
+  padding: 4rem;
+}
+
+.header__h1 {
+  margin: auto 0;
+
+  text-align: center;
+}
+
+.header__text {
+  padding: 1rem;
+
+  display: inline-block;
+  background-color: #222;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3rem;
+
+  transform: rotate(-3deg) skew(-3deg);
+}
