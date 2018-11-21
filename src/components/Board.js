@@ -28,7 +28,7 @@ class Board extends Component {
   }
 
   addCard = (card) => {
-    const cards = this.state.cards;
+    // const cards = this.state.cards;
 
     axios.post('https://inspiration-board.herokuapp.com/boards/bradliepond/cards', card)
     .then((response) => {
