@@ -16,7 +16,7 @@ class Board extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://inspiration-board.herokuapp.com/boards/bradliepond/cards')
+    axios.get('https://bradlies-board-api.herokuapp.com//boards/bradliepond/cards')
     .then((response) => {
       this.setState({ cards: response.data });
     })
@@ -30,7 +30,7 @@ class Board extends Component {
   addCard = (card) => {
     // const cards = this.state.cards;
 
-    axios.post('https://inspiration-board.herokuapp.com/boards/bradliepond/cards', card)
+    axios.post('https://bradlies-board-api.herokuapp.com//boards/bradliepond/cards', card)
     .then((response) => {
     this.componentDidMount();
     })
@@ -43,7 +43,7 @@ class Board extends Component {
 
 
   deleteCard = (id) => {
-    axios.delete(`https://inspiration-board.herokuapp.com/boards/bradliepond/cards/${id}`)
+    axios.delete(`https://bradlies-board-api.herokuapp.com//boards/bradliepond/cards/${id}`)
     .then((response) => {
       this.setState({
         message: 'Successfully Deleted Card'
