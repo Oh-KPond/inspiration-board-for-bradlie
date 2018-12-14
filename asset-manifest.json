@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.0884fc6e.css",
-  "main.css.map": "static/css/main.0884fc6e.css.map",
-  "main.js": "static/js/main.a499148a.js",
-  "main.js.map": "static/js/main.a499148a.js.map"
+  "main.css": "/inspiration-board-for-bradlie/static/css/main.583ea21c.chunk.css",
+  "main.js": "/inspiration-board-for-bradlie/static/js/main.ed52780d.chunk.js",
+  "main.js.map": "/inspiration-board-for-bradlie/static/js/main.ed52780d.chunk.js.map",
+  "static/js/1.56b56ea1.chunk.js": "/inspiration-board-for-bradlie/static/js/1.56b56ea1.chunk.js",
+  "static/js/1.56b56ea1.chunk.js.map": "/inspiration-board-for-bradlie/static/js/1.56b56ea1.chunk.js.map",
+  "runtime~main.js": "/inspiration-board-for-bradlie/static/js/runtime~main.098a2a15.js",
+  "runtime~main.js.map": "/inspiration-board-for-bradlie/static/js/runtime~main.098a2a15.js.map",
+  "static/css/main.583ea21c.chunk.css.map": "/inspiration-board-for-bradlie/static/css/main.583ea21c.chunk.css.map",
+  "index.html": "/inspiration-board-for-bradlie/index.html",
+  "precache-manifest.55c3e789b60604b24b5427e80adc5aac.js": "/inspiration-board-for-bradlie/precache-manifest.55c3e789b60604b24b5427e80adc5aac.js",
+  "service-worker.js": "/inspiration-board-for-bradlie/service-worker.js"
 }
