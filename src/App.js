@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
 import Board from './components/Board';
+import Header from './components/Header';
+//import ErrorBoundary from './components/ErrorBoundary';
+import { withLDProvider } from 'launchdarkly-react-client-sdk';
 
 class App extends Component {
   render() {
     return (
       <section>
-        <header className="header">
-          <h1 className="header__h1"><span className="header__text">An Inspiration Board for Bradlie</span></h1>
-        </header>
+        <Header />
         <Board />
       </section>
     );
   }
 }
 
-export default App;
+export default withLDProvider({
+  clientSideID: '5d5ca6077fcabc08797c4789',
+  user: {
+      "key": "user_key",
+      "name": "User Name",
+      "email": "User@email.com"
+  }
+})(App);
