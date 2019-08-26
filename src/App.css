@@ -21,6 +21,12 @@ h1, h2 {
   text-align: center;
 }
 
+.header__h2 {
+  margin: auto 0;
+
+  text-align: center;
+}
+
 .header__text {
   padding: 1rem;
 
@@ -32,4 +38,8 @@ h1, h2 {
   font-size: 3rem;
 
   transform: rotate(-3deg) skew(-3deg);
+}
+
+.purple {
+  color: #cea5e1;
 }
