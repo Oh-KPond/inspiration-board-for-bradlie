@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/inspiration-board-for-bradlie/precache-manifest.55c3e789b60604b24b5427e80adc5aac.js"
+  "/inspiration-board-for-bradlie/precache-manifest.849728aa07a93d8d223dc9b7f034d6d7.js"
 );
 
 workbox.clientsClaim();
